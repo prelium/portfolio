@@ -1,0 +1,164 @@
+body{
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #1c2740;
+  color: #fff;
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: #454545;
+}
+
+.container-fluid {
+  padding: 0 10%;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 5rem;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+}
+
+h4 {
+  color: #010203;
+}
+p{
+  color: #8f8f8f;
+}
+
+i{
+  padding: 10px 10px;
+}
+
+.navbar{
+  margin-bottom: 4.5rem;
+  border-radius: 0 0 10px 10px;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, #1c2740 35%, #2a3857 100%);
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: green;
+}
+
+.navbar-brand:hover {
+
+}
+
+.download-button{
+  margin: 5% 7% 5% 0;
+}
+
+.main-image{
+  max-width: 100%;
+  height: auto;
+}
+
+.feature-box{
+  text-align: center;
+}
+
+.icon {
+  color: #01010f;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #18182e;
+}
+
+
+/* Testimonial */
+
+#testimonials {
+  text-align: center;
+  background-color: #1c2740;
+  color: #fff;
+}
+
+.test-img {
+  align-self: center;
+  border-radius: 100%;
+  width: 10%;
+  height: auto;
+  margin: 20px;
+}
+
+.carousel-item{
+    padding: 4% 15%;
+    height: 400px;
+}
+
+.carousel.inner{
+
+}
+
+.car:hover{
+  background-color: #24314f;
+}
+
+
+/* portfolio */
+.container-portfolio {
+  padding: 0 7%;
+  background-color: #454545;
+}
+
+.gal-img {
+  object-fit: cover;
+  width: 100%;
+  height: 550px;
+  transition: transform .2s;
+}
+
+.gal-img:hover {
+  transform: scale(1.02);
+  transition: transform .2s;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 3% 15%;
+  background-color: #1c2740;
+}
+
+.card-header{
+  background-color: #303030;
+}
+
+.card-body {
+  background-color: #454545;
+}
+
+/* footer */
+#footer {
+background-color: #303030;
+}
+
+.copyright {
+  text-align: right;
+  padding: 2% 0;
+  color: #fff;
+}
